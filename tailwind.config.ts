@@ -7,7 +7,15 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      cormorant: ["var(--font-cormorant)"],
+      openSans: ["var(--font-open-sans)"],
+    },
     extend: {
+      colors: {
+        "diplomatic": "#DCCA87",
+        "dhusarGrey": "#AAABAA"
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
