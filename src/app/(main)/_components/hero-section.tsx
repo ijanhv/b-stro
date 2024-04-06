@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const HeroSection = () => {
   return (
-    <div className=" box grid grid-cols-1 lg:grid-cols-2 lg:gap-16  h-full my-10 lg:my-0 lg:h-screen items-center">
+    <div className=" box grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16  h-full my-10 lg:my-0 lg:h-screen items-center">
       <div className="flex flex-col gap-6 w-full items-start  lg:justify-center h-full ">
         <div className="space-y-3">
           <h3 className="text-3xl font-semibold font-cormorant text-white">
@@ -33,7 +33,7 @@ export const HeroSection = () => {
       </div>
 
       <div className="w-full  h-full flex items-start">
-        <div className="relative h-full w-full">
+        <div className="relative h-[250px] lg:h-full w-full">
           <Image
             src="/images/hero1.png"
             alt="Hero Image"

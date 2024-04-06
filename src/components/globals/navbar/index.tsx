@@ -21,7 +21,9 @@ export const Navbar = () => {
     },
   ];
   return (
-    <div className="box z-10 h-16 sticky bg-[#0C0C0C] top-0 w-full flex justify-between items-center text-diplomatic text-lg">
+    <div className=" z-10 h-16 sticky bg-[#0C0C0C] top-0 w-full py-3 text-diplomatic text-lg">
+     
+     <div className="box flex justify-between items-center">
       <Logo />
 
       <div className="lg:flex space-x-4 hidden">
@@ -31,6 +33,7 @@ export const Navbar = () => {
           </Link>
         ))}
       </div>
+      </div>  
     </div>
   );
 };

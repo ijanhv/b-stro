@@ -9,6 +9,9 @@ body,
   @apply bg-[#0C0C0C];
 }
 
+.select {
+  @apply border border-diplomatic px-3 py-1 font-cormorant text-diplomatic text-lg
+}
 
 .box {
   @apply max-w-7xl mx-auto lg:px-2 md:px-8 px-10 w-full
