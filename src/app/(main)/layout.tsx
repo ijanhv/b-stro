@@ -10,15 +10,19 @@ export const metadata: Metadata = {
 
 export default function MainLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: {
+  children: React.ReactNode
+} ) {
   return (
-    <div className="">
-      <main className={`${cormorant.variable}  ${openSans.variable} font-openSans`}>
-        <Navbar />
-        {children}
-      </main>
-    </div>
+    <html lang="en">
+      <body>
+        <main
+          className={`${cormorant.variable}  ${openSans.variable} font-openSans`}
+        >
+          <Navbar />
+          {children}
+        </main>
+      </body>
+    </html>
   );
 }
