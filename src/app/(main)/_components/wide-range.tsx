@@ -32,7 +32,7 @@ export const WideRange = () => {
           <hr className="w-28 border-diplomatic" />
         </div>
 
-        <h3 className="text-3xl lg:text-6xl font-semibold font-cormorant text-diplomatic">
+        <h3 className="text-3xl lg:text-6xl font-semibold font-cormorant text-white">
           What’s Your Poison?
         </h3>
 

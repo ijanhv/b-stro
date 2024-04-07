@@ -14,7 +14,7 @@ body,
 }
 
 .box {
-  @apply max-w-7xl mx-auto lg:px-2 md:px-8 px-10 w-full
+  @apply lg:max-w-7xl md:max-w-4xl mx-auto lg:px-2 md:px-8 sm:px-9 px-10 w-full
 }
 
 .hidden-scrollbar {

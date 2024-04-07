@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const Drinks = () => {
   return (
-    <div className="relative h-[800px]  lg:h-screen flex items-center justify-center">
+    <div className="relative h-[800px]   lg:h-screen flex items-center justify-center">
       <Image
         src="/images/aboutUsBg.jpeg"
         alt="About Us"
@@ -10,7 +10,8 @@ export const Drinks = () => {
         className="w-full h-full object-cover  "
       />
 
-      <div className="box absolute w-full h-full flex flex-col">
+    <div className="absolute top-0 left-0  w-full h-full bg-black bg-opacity-50 flex items-center justify-center" />
+      <div className="box absolute w-full h-full flex flex-col ">
         <div className=" grid grid-cols-1 lg:grid-cols-2 gap-20 h-full w-full items-center justify-center py-16">
           <div className="w-full h-full hidden lg:block relative">
             <Image
