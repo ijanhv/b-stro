@@ -38,5 +38,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Mockups
 
+![image](https://github.com/ijanhv/bistro/assets/90978757/c89d0e65-b533-44ad-93e9-bd6c55dfcd51)
 ![image](https://github.com/ijanhv/bistro/assets/90978757/5e2149db-baff-476a-aa19-55c7f4d96bb6)
-![image](https://github.com/ijanhv/bistro/assets/90978757/7bd2454b-44f2-4f54-9fbd-357cf6394004)
