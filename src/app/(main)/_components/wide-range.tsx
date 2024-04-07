@@ -24,9 +24,7 @@ export const WideRange = () => {
   return (
     <div className="h-full lg:h-screen">
       <div className="box flex flex-col gap-10 items-center justify-center py-20">
-        <div
-          className="flex flex-col items-center justify-center gap-4 w-full h-full text-center"
-        >
+        <div className="flex flex-col items-center justify-center gap-4 w-full h-full text-center">
           <p className="text-base  text-diplomatic">
             Wide Range To Choose From
           </p>
